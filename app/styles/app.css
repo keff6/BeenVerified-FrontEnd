@@ -1,0 +1,110 @@
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: lightgreen;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ----------------------------------------------- */
+/* HEADER - NAVBAR */
+/* ----------------------------------------------- */
+
+header {    
+    height: 70px;
+    background-color: #fff;
+    background-attachment: fixed;
+}
+
+.logo {
+    height: 130px;
+    width: 100px;
+    float: left;
+    margin-top: 20px;
+}
+
+
+/* Main navi */
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+    /*margin-top: 55px;*/
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 70px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {        
+    color: #000245;
+    text-decoration: none;
+}
+
+.main-nav li a:hover{
+    color: #FF5050;
+}
+
+.main-nav li a:active {
+    color: red;
+}
+
+/* Mobile navi */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
+/* Sticky navi */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.sticky .main-nav { margin-top: 18px; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+    color: #555;
+}
+
+.sticky .logo { display: none; }
+.sticky .logo-black { display: block; }

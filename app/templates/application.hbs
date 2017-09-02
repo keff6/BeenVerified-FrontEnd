@@ -1,5 +1,14 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<header>
+    <nav>
+        <div class="row">
+            <img src="assets/images/xyz-logo.svg" alt="xyz logo" class="logo">
+            <ul class="main-nav js--main-nav">
+                <li>{{#link-to 'report'}}Report{{/link-to}}</li>
+                <li>{{#link-to 'settings'}}Settings{{/link-to}}</li>
+            </ul>
+            <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+        </div>
+    </nav>
+</header>
 
 {{outlet}}
