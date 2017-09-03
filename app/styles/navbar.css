@@ -1,0 +1,48 @@
+header {
+    height: 70px;
+    background-color: #fff;
+    background-attachment: fixed;
+}
+
+header nav{
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    height: 130px;
+    width: 100px;
+    float: left;
+    margin-top: 20px;
+}
+
+
+/* Main navi */
+
+.main-nav {
+    float: right;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 70px;
+}
+
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    font-family: "merloneue_medium";
+    font-size: 18px;
+    color: #000245;
+    text-decoration: none;
+}
+
+.main-nav li a:hover {
+    color: #FF5050;
+}
+
+.main-nav li a:active {
+    color: red;
+}
