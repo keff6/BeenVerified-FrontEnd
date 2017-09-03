@@ -1,0 +1,21 @@
+
+
+
+/* Small desktops */
+@media only screen and (max-width: 1200px) {
+    body{background-color: aqua;}
+}
+
+
+/* Tablet portrait*/
+@media only screen and (max-width: 767px) {
+     body{background-color: coral;}
+}
+
+
+
+/* Smartphones */
+@media only screen and (max-width: 480px) {
+     body{background-color: cornflowerblue;}
+ 
+}

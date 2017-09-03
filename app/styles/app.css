@@ -7,6 +7,7 @@
 /* ----------------------------------------------- */
 
 @import 'fonts.css';
+@import 'media_queries.css';
 @import 'navbar.css';
 
 /* ----------------------------------------------- */
@@ -101,7 +102,14 @@ info
 }
 
 .white-text {
+    margin-top:20px;
     color: #fff;
+    font-family: "merloneue_regular";
+    font-size: 28px;
+}
+
+.white-text strong{
+    font-family: "merloneue_semibold";
 }
 
 .general-info {
@@ -268,10 +276,13 @@ info
 
 
 
-/* footer */
+/* footer ---------------------------------------------------------------------------*/
 
 footer {
-    height: 480px;
+    width: 100%;
+}
+
+footer .centered{
     width: 80%;
     margin: auto;
 }
@@ -312,24 +323,54 @@ footer .assistance {
     background-color: #E4E8EF;
     width: 35%;
     float: right;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-top: 20px;
+    padding-left:20px;
+    padding-bottom: 30px;
 }
 
 footer .assistance .title {
-    font-family: 'merloneue_semibolditalic';
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'merloneue_semibolditalic';    
     color: #000245;
     font-size: 36px;
 }
 
+footer .assistance .phone p{
+    font-family: 'merloneue_regular';    
+    color: #000245;
+    font-size: 14px;
+}
+
+footer .assistance .phone p .red{
+    font-family: 'merloneue_semibold';    
+    color: #FF3636;
+    font-size: 14px;
+}
+
+
+.fine-print{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    clear: both;
+    font-family: 'merloneue_regular';
+    font-size: 14px;
+    color: #000245;
+}
+
+.fine-print span:last-of-type{
+    float:right;
+}
+
+
 .big-label-red {
-    font-family: 'merloneue_semibolditalic';
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'merloneue_semibolditalic';    
     font-size: 26px;
     color: #FFFFFF;
     text-align: left;
     color: #FF3636;
+    margin-top: 30px;
 }
 
 
@@ -356,27 +397,35 @@ footer .assistance .title {
 }
 
 .account-attributes .container {
+    position:relative;
     width: 90%;
     height: 365px;
     background: inherit;
     background-color: rgba(255, 54, 54, 1);
     border: none;
     border-radius: 4px;
+    margin-top: 30px;
+    padding-top: 25px;
+        padding-left: 35px;
 }
 
 .account-attributes .heading-white{
     font-family: "merloneue_semibolditalic";
     font-size: 36px;
+    margin:0;
+    margin-bottom: 30px;
 }
 
 .account-attributes p{
     font-family: "merloneue_regular";
-    font-size: 16px;    
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .account-attributes .subheading-white{
     font-family: "merloneue_italic";
-    font-size: 20px; 
+    font-size: 26px; 
+    margin-top: 30px;
 }
 
 .account-attributes .subheading-white strong{
@@ -384,14 +433,48 @@ footer .assistance .title {
 }
 
 .edit-box{
-margin-bottom: 60px;
+    margin-bottom: 60px;
+    display:grid;
 }
 
 .edit-box p{
+    font-family: 'merloneue_medium';  
+    font-size: 14px;
+    color: #000245;
     margin-bottom: 10px;
 }
 
+.edit-box input{
+    line-height: 40px;
+}
 
+.edit-box button{
+    margin-top: 20px;
+    width:60px;
+    text-transform: uppercase;
+}
+
+.button-white{
+    font-family: 'merloneue_semibolditalic';    
+    font-size: 14px;
+    color: #FF3636;
+    text-transform: uppercase;
+    
+    width: 200px;
+    height: 40px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 20px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    
+    
+    right: 60px; /* has to be 80 as per specs */
+    bottom: 60px;
+    position: absolute;
+}
 
 .sign-in {
     width: 50%;
@@ -399,5 +482,35 @@ margin-bottom: 60px;
 
 .form {
     width: 90%;
-    margin-top: 80px;
+    margin-top: 30px;
 }
+
+.form button{
+    font-family: 'merloneue_semibolditalic'; 
+    font-size: 14px;
+    color: #000245;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 54, 54, 1);
+    border-radius: 15px;
+    padding:6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
