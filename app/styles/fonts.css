@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'kaleidos';
+    src: url('/assets/fonts/kaleidos_regular/kaleidos-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/kaleidos_regular/kaleidos-webfont.woff') format('woff'),
+         url('/assets/fonts/kaleidos_regular/kaleidos-webfont.svg') format('svg'),
+         url('/assets/fonts/kaleidos_regular/kaleidos-webfont.eot') format('eot'),
+         url('/assets/fonts/kaleidos_regular/kaleidos-webfont.ttf') format('ttf');
+}
+
+
+@font-face {
+    font-family: 'merloneue_black';
+    src: url('/assets/fonts/merloneue_black/merloneue-black-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/merloneue_black/merloneue-black-webfont.woff') format('woff'),
+         url('/assets/fonts/merloneue_black/merloneue-black-webfont.svg') format('svg'),
+         url('/assets/fonts/merloneue_black/merloneue-black-webfont.eot') format('eot'),
+         url('/assets/fonts/merloneue_black/merloneue-black-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'merloneue_blackitalic';
+    src: url('/assets/fonts/merloneue_blackitalic/merloneue-blackitalic-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/merloneue_blackitalic/merloneue-blackitalic-webfont.woff') format('woff'),
+         url('/assets/fonts/merloneue_blackitalic/merloneue-blackitalic-webfont.svg') format('svg'),
+         url('/assets/fonts/merloneue_blackitalic/merloneue-blackitalic-webfont.eot') format('eot'),
+         url('/assets/fonts/merloneue_blackitalic/merloneue-blackitalic-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'merloneue_bold';
+    src: url('/assets/fonts/merloneue_bold/merloneue-bold-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/merloneue_bold/merloneue-bold-webfont.woff') format('woff'),
+         url('/assets/fonts/merloneue_bold/merloneue-bold-webfont.svg') format('svg'),
+         url('/assets/fonts/merloneue_bold/merloneue-bold-webfont.eot') format('eot'),
+         url('/assets/fonts/merloneue_bold/merloneue-bold-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'merloneue_bolditalic';
+    src: url('/assets/fonts/merloneue_bolditalic/merloneue-bolditalic-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/merloneue_bolditalic/merloneue-bolditalic-webfont.woff') format('woff'),
+         url('/assets/fonts/merloneue_bolditalic/merloneue-bolditalic-webfont.svg') format('svg'),
+         url('/assets/fonts/merloneue_bolditalic/merloneue-bolditalic-webfont.eot') format('eot'),
+         url('/assets/fonts/merloneue_bolditalic/merloneue-bolditalic-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'merloneue_extralight';
+    src: url('/assets/fonts/merloneue_extralight/merloneue-extralight-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/merloneue_extralight/merloneue-extralight-webfont.woff') format('woff'),
+         url('/assets/fonts/merloneue_extralight/merloneue-extralight-webfont.svg') format('svg'),
+         url('/assets/fonts/merloneue_extralight/merloneue-extralight-webfont.eot') format('eot'),
+         url('/assets/fonts/merloneue_extralight/merloneue-extralight-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'merloneue_extralightitalic';
+    src: url('/assets/fonts/merloneue_extralightitalic/merloneue-extralightitalic-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/merloneue_extralightitalic/merloneue-extralightitalic-webfont.woff') format('woff'),
+         url('/assets/fonts/merloneue_extralightitalic/merloneue-extralightitalic-webfont.svg') format('svg'),
+         url('/assets/fonts/merloneue_extralightitalic/merloneue-extralightitalic-webfont.eot') format('eot'),
+         url('/assets/fonts/merloneue_extralightitalic/merloneue-extralightitalic-webfont.ttf') format('ttf');
+}
+
+
+@font-face {
+    font-family: 'merloneue_hairline';
+    src: url('/assets/fonts/merloneue_hairline/merloneue-hairline-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/merloneue_hairline/merloneue-hairline-webfont.woff') format('woff'),
+         url('/assets/fonts/merloneue_hairline/merloneue-hairline-webfont.svg') format('svg'),
+         url('/assets/fonts/merloneue_hairline/merloneue-hairline-webfont.eot') format('eot'),
+         url('/assets/fonts/merloneue_hairline/merloneue-hairline-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'merloneue_hairlineitalic';
+    src: url('/assets/fonts/merloneue_hairlineitalic/merloneue-hairlineitalic-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/merloneue_hairlineitalic/merloneue-hairlineitalic-webfont.woff') format('woff'),
+         url('/assets/fonts/merloneue_hairlineitalic/merloneue-hairlineitalic-webfont.svg') format('svg'),
+         url('/assets/fonts/merloneue_hairlineitalic/merloneue-hairlineitalic-webfont.eot') format('eot'),
+         url('/assets/fonts/merloneue_hairlineitalic/merloneue-hairlineitalic-webfont.ttf') format('ttf');
+}
+
+
+@font-face {
+    font-family: 'merloneue_italic';
+    src: url('/assets/fonts/merloneue_italic/merloneue-italic-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/merloneue_italic/merloneue-italic-webfont.woff') format('woff'),
+         url('/assets/fonts/merloneue_italic/merloneue-italic-webfont.svg') format('svg'),
+         url('/assets/fonts/merloneue_italic/merloneue-italic-webfont.eot') format('eot'),
+         url('/assets/fonts/merloneue_italic/merloneue-italic-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'merloneue_light';
+    src: url('/assets/fonts/merloneue_light/merloneue-light-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/merloneue_light/merloneue-light-webfont.woff') format('woff'),
+         url('/assets/fonts/merloneue_light/merloneue-light-webfont.svg') format('svg'),
+         url('/assets/fonts/merloneue_light/merloneue-light-webfont.eot') format('eot'),
+         url('/assets/fonts/merloneue_light/merloneue-light-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'merloneue_lightitalic';
+    src: url('/assets/fonts/merloneue_lightitalic/merloneue-lightitalic-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/merloneue_lightitalic/merloneue-lightitalic-webfont.woff') format('woff'),
+         url('/assets/fonts/merloneue_lightitalic/merloneue-lightitalic-webfont.svg') format('svg'),
+         url('/assets/fonts/merloneue_lightitalic/merloneue-lightitalic-webfont.eot') format('eot'),
+         url('/assets/fonts/merloneue_lightitalic/merloneue-lightitalic-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'merloneue_medium';
+    src: url('/assets/fonts/merloneue_medium/merloneue-medium-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/merloneue_medium/merloneue-medium-webfont.woff') format('woff'),
+         url('/assets/fonts/merloneue_medium/merloneue-medium-webfont.svg') format('svg'),
+         url('/assets/fonts/merloneue_medium/merloneue-medium-webfont.eot') format('eot'),
+         url('/assets/fonts/merloneue_medium/merloneue-medium-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'merloneue_mediumitalic';
+    src: url('/assets/fonts/merloneue_mediumitalic/merloneue-mediumitalic-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/merloneue_mediumitalic/merloneue-mediumitalic-webfont.woff') format('woff'),
+         url('/assets/fonts/merloneue_mediumitalic/merloneue-mediumitalic-webfont.svg') format('svg'),
+         url('/assets/fonts/merloneue_mediumitalic/merloneue-mediumitalic-webfont.eot') format('eot'),
+         url('/assets/fonts/merloneue_mediumitalic/merloneue-mediumitalic-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'merloneue_regular';
+    src: url('/assets/fonts/merloneue_regular/merloneue-regular-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/merloneue_regular/merloneue-regular-webfont.woff') format('woff'),
+         url('/assets/fonts/merloneue_regular/merloneue-regular-webfont.svg') format('svg'),
+         url('/assets/fonts/merloneue_regular/merloneue-regular-webfont.eot') format('eot'),
+         url('/assets/fonts/merloneue_regular/merloneue-regular-webfont.ttf') format('ttf');
+}
+
+
+@font-face {
+    font-family: 'merloneue_semibold';
+    src: url('/assets/fonts/merloneue_semibold/merloneue-semibold-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/merloneue_semibold/merloneue-semibold-webfont.woff') format('woff'),
+         url('/assets/fonts/merloneue_semibold/merloneue-semibold-webfont.svg') format('svg'),
+         url('/assets/fonts/merloneue_semibold/merloneue-semibold-webfont.eot') format('eot'),
+         url('/assets/fonts/merloneue_semibold/merloneue-semibold-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'merloneue_semibolditalic';
+    src: url('/assets/fonts/merloneue_semibolditalic/merloneue-semibolditalic-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/merloneue_semibolditalic/merloneue-semibolditalic-webfont.woff') format('woff'),
+         url('/assets/fonts/merloneue_semibolditalic/merloneue-semibolditalic-webfont.svg') format('svg'),
+         url('/assets/fonts/merloneue_semibolditalic/merloneue-semibolditalic-webfont.eot') format('eot'),
+         url('/assets/fonts/merloneue_semibolditalic/merloneue-semibolditalic-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'merloneue_thin';
+    src: url('/assets/fonts/merloneue_thin/merloneue-thin-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/merloneue_thin/merloneue-thin-webfont.woff') format('woff'),
+         url('/assets/fonts/merloneue_thin/merloneue-thin-webfont.svg') format('svg'),
+         url('/assets/fonts/merloneue_thin/merloneue-thin-webfont.eot') format('eot'),
+         url('/assets/fonts/merloneue_thin/merloneue-thin-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'merloneue_thinitalic';
+    src: url('/assets/fonts/merloneue_thinitalic/merloneue-thinitalic-webfont.woff2') format('woff2'), 
+         url('/assets/fonts/merloneue_thinitalic/merloneue-thinitalic-webfont.woff') format('woff'),
+         url('/assets/fonts/merloneue_thinitalic/merloneue-thinitalic-webfont.svg') format('svg'),
+         url('/assets/fonts/merloneue_thinitalic/merloneue-thinitalic-webfont.eot') format('eot'),
+         url('/assets/fonts/merloneue_thinitalic/merloneue-thinitalic-webfont.ttf') format('ttf');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

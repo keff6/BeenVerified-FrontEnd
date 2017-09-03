@@ -1,6 +1,9 @@
 /* ----------------------------------------------- */
 /* BASIC SETUP */
 /* ----------------------------------------------- */
+@import 'fonts.css';
+
+
 
 * {
     margin: 0;
@@ -10,13 +13,12 @@
 
 html,
 body {
-    background-color: lightgreen;
     color: #555;
-    font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+    width: 100%;
 }
 
 .clearfix {zoom: 1;}
@@ -74,37 +76,282 @@ header {
     color: red;
 }
 
-/* Mobile navi */
-.mobile-nav-icon {
-    float: right;
-    margin-top: 30px;
-    cursor: pointer;
-    display: none;
+/* ----------------------------------------------- */
+/* COMPANY OVERVIEW */
+/* ----------------------------------------------- */
+
+
+/***************************************************************************************************************/
+
+/*
+General styling
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.mobile-nav-icon i {
-    font-size: 200%;
+html,
+body {
+    width: 100%;
+}
+
+
+/*
+Heading
+*/
+
+.heading {
+    font-family: 'merloneue_semibolditalic';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 44px;
+    color: #000245;
+    text-align: center;
+    height:60px;
+}
+
+.overview {
+    margin-top: 120px;
+    width: 100%;
+    height: 470px;
+}
+
+.overview-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.red-label {
+    
+    text-transform: uppercase;
+    color: #FF3636;
+    font-family: "merloneue_bolditalic", sans-serif; 
+    font-size: 16px;
+    
+}
+
+
+/*
+info
+*/
+
+.tax-id {
+    width: 15%;
+}
+
+.blue-circle {
+    width: 180px;
+    height: 180px;
+    background-color: #000245;
+    border-radius: 50%;
+}
+
+.white-text {
     color: #fff;
 }
 
-/* Sticky navi */
-.sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.98);
-    box-shadow: 0 2px 2px #efefef;
-    z-index: 9999;
+.blue-circle * {
+    display: block;
 }
 
-.sticky .main-nav { margin-top: 18px; }
-
-.sticky .main-nav li a:link,
-.sticky .main-nav li a:visited {
-    padding: 16px 0;
-    color: #555;
+.general-info {
+    width: 60%;
 }
 
-.sticky .logo { display: none; }
-.sticky .logo-black { display: block; }
+.company-name{
+    font-family: "kaleidos", sans-serif;
+    font-size: 38px;
+    color: #000245;
+    line-height: 34px;
+}
+
+.normal-text{
+    font-family: 'merloneue_regular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 28px;
+    color: #000245;
+    text-align: left;
+    line-height: normal;
+}
+
+.updates {
+    width: 25%;
+}
+
+.big-red-circle {
+    width: 300px;
+    height: 300px;
+    background-color: #FF3636;
+    border-radius: 50%;
+}
+
+
+/* risks section */
+
+.risk {
+    background-color: #000245;
+    height: 515px;
+}
+
+.heading-white {
+    font-family: 'merloneue_semibolditalic';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 44px;
+    color:#fff;
+    margin-top:80px;
+}
+
+.risk-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+
+
+.risk-score {
+    width: 30%;
+}
+
+.risk-info {
+    width: 70%;
+}
+
+.risk-info .red-label{
+    margin: 0;
+    margin-top: 40px;
+}
+
+.risk-row {
+    color: #fff;
+}
+
+.risk-row span{
+     font-family: 'FontAwesome';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    color: #FF3636;
+    line-height: 32px;
+    margin-right:20px;
+}
+
+.risk-row p{
+        font-family: 'merloneue_regular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 28px;
+    text-align: left;
+    color:#fff;
+}
+
+/* CTA
+*/
+
+.cta-strip{
+    height: 80px;
+    background-color: #E4E8EF;    
+}
+
+.cta-strip-container{
+    width:80%;
+    margin:auto;
+}
+
+.cta-strip-container span{
+    font-family: 'merloneue_mediumitalic';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    color: #000245;
+    line-height: 80px;
+}
+
+.cta-strip-container span strong{
+    font-family: 'merloneue_bolditalic';
+}
+
+.cta-strip img{
+    height: 30px;
+    float:right;
+}
+
+
+/* footer */
+
+footer{
+    height: 480px;
+    width: 80%;
+    margin:auto;
+}
+
+footer .links{
+    margin-top:90px;
+}
+
+.info-box{
+    float: left;
+    margin-right: 10%;
+}
+
+.info-box .title{
+    font-family: 'kaleidos';
+    color: #FF3636;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.info-box p{
+     margin-top: 0;
+    margin-bottom:25px;
+}
+
+.info-box a{
+    font-family: 'merloneue_regular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    color: #000245;
+    text-align: left;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+
+footer .assistance{
+    background-color: #E4E8EF;
+    width: 35%;
+    float: right;
+}
+
+footer .assistance .title{
+    font-family: 'merloneue_semibolditalic';
+    font-weight: normal;
+    font-style: normal;
+    color: #000245;
+    font-size: 36px;
+}
+
+.big-label-red{
+    font-family: 'merloneue_semibolditalic';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 26px;
+    color: #FFFFFF;
+    text-align: left;
+    color:#FF3636;
+}
+
+
+
+
+/* ----------------------------------------------- */
+/* RISK */
+/* ----------------------------------------------- */
