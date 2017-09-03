@@ -21,16 +21,21 @@
             </div>
 
             <div class="text-box">
-               <div class="left">
-                   <p class="red-label">Phone Number</p>
+                <div class="left">
+                    <p class="red-label">Phone Number</p>
                     <p class="normal-text">(888) 862-8818</p>
-               </div>
-               <div class="right">
-                   <p class="red-label">Website</p>
-                    <p class="normal-text">honest.com</p>
-               </div>
-                
-            </div>            
+                </div>
+                <div class="right">
+                    <p class="red-label">Website</p>
+                    <span class="normal-text">honest.com                    
+                    
+                    <div class="btn-circle-red">
+                        {{fa-icon "arrow-right"}}
+                    </div>
+                    </span>
+                </div>
+
+            </div>
         </div>
 
         <div class="updates">
@@ -51,24 +56,26 @@
     <div class="risk-container">
         <div class="risk-score">
             <div class="big-number">
-                    84
-                </div>
-                <p>higher scores are better</p>
+                84
+            </div>
+            <p>higher scores are better</p>
         </div>
 
         <div class="risk-info">
             <div class="heading-white">Experian Credit Risk Score</div>
             <p class="red-label">Factors lowering this score</p>
             <div class="risk-row">
-                <p><span>X</span>Balance of recently delinquent commercial accounts</p>
+                <p><span>{{fa-icon "times"}}</span>Balance of recently delinquent commercial accounts</p>
             </div>
             <div class="risk-row">
-                <p><span>X</span>Balance of commercial accounts at worst delinquency</p>
+                <p><span>{{fa-icon "times"}}</span>Balance of commercial accounts at worst delinquency</p>
             </div>
             <div class="risk-row">
-                <p><span>X</span>Commercial account delinquency in the last 6 months</p>
+                <p><span>{{fa-icon "times"}}</span>Commercial account delinquency in the last 6 months</p>
             </div>
-
+            <div>
+                <button>{{fa-icon "info-circle"}}How is this score calculated?</button>
+            </div>           
 
         </div>
 
@@ -86,50 +93,69 @@
 </section>
 
 <footer>
-   
-   <div class="centered">
-       <div class="links">
-        <div class="info-box">
-            <div class="title">
-                About Us
+    <div class="footer-content">
+
+        <div class="footer-left-block">
+            <div class="links">
+                <div class="info-box">
+                    <div class="title">
+                        About Us
+                    </div>
+                    <p><a href="#">About XYZ</a></p>
+                    <p><a href="#">FAQs</a></p>
+                </div>
+
+                <div class="info-box">
+                    <div class="title">
+                        Resources
+                    </div>
+                    <p><a href="#">Set Goals</a></p>
+                    <p><a href="#">XYZ Tips</a></p>
+                </div>
+
+                <div class="social-media">
+                    <div class="btn-social-media">{{fa-icon "facebook"}}</div>
+                    <div class="btn-social-media">{{fa-icon "twitter"}}</div>
+                    <div class="btn-social-media">{{fa-icon "google-plus"}}</div>
+                    <div class="btn-social-media">{{fa-icon "instagram"}}</div>
+                    <div class="btn-social-media">{{fa-icon "pinterest"}}</div>
+                </div>
             </div>
-            <p><a href="#">About XYZ</a></p>
-            <p><a href="#">FAQs</a></p>
+
         </div>
 
-        <div class="info-box">
-            <div class="title">
-                Resources
+        <div class="footer-right-block">
+            <div class="assistance">
+                <div class="title">
+                    Need assistance?
+                </div>
+                <div class="phone">
+                    
+                    <div class="big-label-red"><div class="btn-circle-red-small">
+                            {{fa-icon "phone"}}
+                        </div><span>1-888-579-5910</span></div>
+                    <p>When calling, use memeber ID <span class="red">791509951</span></p>
+                    <p><span class="red">Weekdays</span> 8AM - 9PM Eastern</p>
+                    <p><span class="red">Weekends</span> 12PM - 8PM Eastern</p>
+                </div>
+                <div class="email">
+
+                    <div class="big-label-red">
+                        <div class="btn-circle-red-small">
+                            {{fa-icon "envelope"}}
+                        </div><span>help@xyz.com</span></div>
+                </div>
             </div>
-            <p><a href="#">Set Goals</a></p>
-            <p><a href="#">XYZ Tips</a></p>
         </div>
-        
-        
-        
+
+
 
     </div>
-   </div>
-    
-
-    <div class="assistance">
-        <div class="title">
-            Need assistance?
-        </div>
-        <div class="phone">
-            <div class="big-label-red">1-888-579-5910</div>
-            <p>When calling, use memeber ID <span class="red">791509951</span></p>
-            <p><span class="red">Weekdays</span> 8AM - 9PM Eastern</p>
-            <p><span class="red">Weekends</span> 12PM - 8PM Eastern</p>
-        </div>
-        <div class="email">
-            <div class="big-label-red">help@xyz.com</div>
-        </div>
-    </div>
-    
     <div class="fine-print">
-            <span>XYZ &copy; 2017 All Rights Reserved</span>
-            <span>Terms & Conditions    |    Privacy Policy</span>
-        </div>
+        <span>XYZ &copy; 2017 All Rights Reserved</span>
+        <span>Terms & Conditions    |    Privacy Policy</span>
+    </div>
+
+
 
 </footer>

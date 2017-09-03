@@ -65,6 +65,9 @@ Heading
 
 .overview {    
     width: 100%;
+    background-image: url("../assets/images/circle-background.png");
+    background-repeat: no-repeat;
+    background-position: -736px 0px; 
 }
 
 .overview-container {
@@ -76,7 +79,7 @@ Heading
 .red-label {
     text-transform: uppercase;
     color: #FF3636;
-    font-family: "merloneue_bolditalic", sans-serif;
+    font-family: "merloneue_bolditalic";
     font-size: 16px;
 }
 
@@ -127,13 +130,16 @@ info
 }
 
 .normal-text {
-    font-family: 'merloneue_regular';
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'merloneue_regular';    
     font-size: 28px;
     color: #000245;
     text-align: left;
     line-height: normal;
+    display: flex;
+}
+
+.normal-text .btn-circle-red{
+    margin-left: 10px;
 }
 
 .text-box{
@@ -238,8 +244,29 @@ info
     font-size: 28px;
     text-align: left;
     color: #fff;
+    margin-top: 20px;
 }
 
+.risk-info button{
+    
+    width: 240px;
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 54, 54, 1);
+    border-radius: 15px;
+    color: #FFF;
+    line-height: 30px;
+    font-family: 'merloneue_semibolditalic';
+    font-size: 14px;
+}
+
+.risk-info button i{
+    color: #ff3636;
+        margin-right: 5px;
+}
 
 /* CTA
 */
@@ -279,13 +306,25 @@ info
 /* footer ---------------------------------------------------------------------------*/
 
 footer {
-    width: 100%;
+    display:grid;
 }
 
-footer .centered{
-    width: 80%;
-    margin: auto;
+.footer-content{
+    width: 100%;
+    display: inline-flex;
+    height: min-content;
 }
+
+.footer-right-block{
+    width:50%;
+}
+
+.footer-left-block{
+    display:grid;
+    width:40%;
+    margin-left: 10%;
+}
+
 
 footer .links {
     margin-top: 90px;
@@ -293,7 +332,8 @@ footer .links {
 
 .info-box {
     float: left;
-    margin-right: 10%;
+    margin-right: 30%;
+    margin-bottom: 40px;
 }
 
 .info-box .title {
@@ -321,13 +361,14 @@ footer .links {
 
 footer .assistance {
     background-color: #E4E8EF;
-    width: 35%;
+    width: 65%;
     float: right;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     padding-top: 20px;
     padding-left:20px;
     padding-bottom: 30px;
+    margin-top: 60px;
 }
 
 footer .assistance .title {
@@ -371,6 +412,11 @@ footer .assistance .phone p .red{
     text-align: left;
     color: #FF3636;
     margin-top: 30px;
+    display:flex;
+}
+
+.big-label-red span{
+    margin-left: 10px;
 }
 
 
@@ -502,11 +548,63 @@ footer .assistance .phone p .red{
 
 
 
+/************************ botones con fontawesome
+*/
+
+.btn-circle-red{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #FF3636;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height:40px;
+}
+
+.btn-circle-red:hover{
+    background-color:#FF5050;
+}
+
+.btn-circle-red-small{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #FF3636;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height:30px;
+}
 
 
 
+/* social media button */
 
+.social-media{
+    display:flex;
+    width: fit-content;
+}
 
+.btn-social-media{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #000245;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    line-height:50px;
+    margin-right: 10px;
+}
+
+.btn-social-media:hover{
+    background-color: #FF5050;
+}
+
+.btn-social-media:nth-child(3){
+    font-size: 26px;
+}
 
 
 
