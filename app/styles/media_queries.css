@@ -78,14 +78,92 @@
     .info-box { margin-right: 18%; }
     footer .assistance { width: 95%;}
     
-    .settings-container { display: flow-root; }
+    .settings-container { 
+        display: flex;
+        flex-direction: column; 
+        margin-bottom: 60px;
+    }
+    .settings-container > .sign-in {order:1;}
+    .settings-container > .account-attributes {order:2;}
+    
+    .sign-in { width: 70%; margin: auto;}
+    
+    .form { width: 100%;  margin-top: 15px;}
+    .account-attributes .container { width: 100%; margin-top: 0px; }
+    .account-attributes{width:70%; margin: auto;}
 }
 
 
 /* Smartphones */
 
 @media only screen and (max-width: 480px) {
-    body {
-        background-color: cornflowerblue;
+    
+    .overview-container { 
+        display: flex;
+        flex-direction: column; 
     }
+    .overview-container > .general-info {order:1;}
+    .overview-container > * {order:2;}
+    .general-info{width:95%;}
+    .text-box:last-of-type {display: block;} 
+    
+    .text-box .right{margin:0;}
+    .text-box .left{margin-bottom:30px;}
+    
+    .blue-circle{ position: relative; left: 40%;}
+    .blue-circle > *{ position: relative; right: 15px;}
+    
+    .big-red-circle{ 
+        position: relative;
+        left: 85%;
+        top: -173px;
+    }
+    .updates{height: 60px;}
+    
+    
+    .risk-container { 
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    .risk-container > .risk-score {order:2;}
+    .risk-container > .risk-info {order:1;}
+    .heading-white {    margin-top: 60px;    margin-bottom: 300px; margin-left: 5%;}
+    
+    .risk-score { position: relative; top: -650px; width: 70%; margin:auto; text-align: -webkit-center; height:0;}    
+    
+    .risk-info {    width: 100%;}   
+    
+    .risk-info div:last-of-type{text-align: center;}
+    
+    .cta-strip{height:130px;}
+    
+    .cta-strip img {  
+        position: relative;
+        bottom: -60px;
+        right: 15px;
+    }
+    
+    .cta-strip-container p{width:80%;}
+    
+    footer, .footer-content { 
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    footer > .footer-content {order:1;}
+    footer > .fine-print {order:2;}
+    
+    .footer-content > .footer-right-block{order:1;}
+    .footer-content > .footer-left-block{order:2;}
+    
+    .footer-content, footer .links{max-height: inherit;}
+    .footer-right-block, .footer-left-block { width: 100%;}
+    
+    .info-box{margin:0; float:none; text-align: center;}
+    .social-media{margin: auto; width: 65%;}
+    
+    .sign-in, .account-attributes{width:90%;}
+    .account-attributes button{display:none;}
+    .account-attributes .container{padding-left:10px;}
 }
