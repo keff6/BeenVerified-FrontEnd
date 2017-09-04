@@ -1,9 +1,5 @@
 /* ----------------------------------------------- */
-
-
-/* BASIC SETUP */
-
-
+/*               CSS INCLUDES                      */
 /* ----------------------------------------------- */
 
 @import 'fonts.css';
@@ -11,30 +7,8 @@
 @import 'navbar.css';
 
 /* ----------------------------------------------- */
-
-
-/* HEADER - NAVBAR */
-
-
+/*              GENERAL STYLING                    */
 /* ----------------------------------------------- */
-
-
-
-/* ----------------------------------------------- */
-
-
-/* COMPANY OVERVIEW */
-
-
-/* ----------------------------------------------- */
-
-
-/***************************************************************************************************************/
-
-
-/*
-General styling
-*/
 
 * {
     margin: 0;
@@ -47,11 +21,6 @@ body {
     width: 100%;
 }
 
-
-/*
-Heading
-*/
-
 .heading {
     font-family: 'merloneue_semibolditalic';
     font-weight: normal;
@@ -62,6 +31,64 @@ Heading
     height: 60px;
     margin-top: 90px; /*has to be 160px from the very top*/
 }
+
+.red-label {
+    text-transform: uppercase;
+    color: #FF3636;
+    font-family: "merloneue_bolditalic";
+    font-size: 16px;
+}
+
+.big-number{
+    font-family: 'kaleidos';
+    font-size: 140px;
+    color:#fff;
+    position: relative;
+    top: 35px;
+}
+
+.heading-white {
+    font-family: 'merloneue_semibolditalic';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 44px;
+    color: #fff;
+    margin-top: 80px;
+}
+
+/*------------------------------BUTTONS ------*/
+
+.btn-circle-red{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #FF3636;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height:40px;
+}
+
+.btn-circle-red:hover{
+    background-color:#FF5050;
+}
+
+.btn-circle-red-small{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #FF3636;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height:30px;
+}
+
+/* ----------------------------------------------- */
+/*                REPORT PAGE                      */
+/* ----------------------------------------------- */
+
+/*-------------------------  OVERVIEW SECTION -----*/
 
 .overview {    
     width: 100%;
@@ -76,17 +103,7 @@ Heading
     display: flex;
 }
 
-.red-label {
-    text-transform: uppercase;
-    color: #FF3636;
-    font-family: "merloneue_bolditalic";
-    font-size: 16px;
-}
-
-
-/*
-info
-*/
+/*   TAX CIRCLE  */
 
 .tax-id {
     width: 15%;
@@ -114,6 +131,8 @@ info
 .white-text strong{
     font-family: "merloneue_semibold";
 }
+
+/*  COMPANY INFO  */
 
 .general-info {
     width: 60%;
@@ -155,6 +174,8 @@ info
     width:40%;
 }
 
+/*  UPDATES CIRCLE  */
+
 .updates {
     width: 25%;
 }
@@ -168,40 +189,40 @@ info
     
     text-align: center;
     vertical-align: middle;
-    text-transform: uppercase;
-}
-
-.big-red-circle span{
-    font-family: 'merloneue_bolditalic';
-    font-size: 20px;
-    color:#fff;
-}
-
-.big-red-circle span:last-of-type{    
-    font-size: 36px;
+    text-transform: uppercase;  
+    
+    background-image: url("../assets/images/refresh-date.png");
+    background-repeat: no-repeat;
+    background-size: 265px;
+    background-position: center;
     
 }
 
-.big-number{
-    font-family: 'kaleidos';
-    font-size: 140px;
+.big-red-circle p{
+    font-family: 'merloneue_bolditalic';
+    font-size: 20px;
     color:#fff;
+    position: relative;
+    top: 42px;
+    width: 50%;
+    left: 24%;
 }
 
-/* risks section */
+.big-red-circle p:last-of-type{    
+    font-size: 36px;
+    top: 0px;
+}
+
+.big-red-circle img{
+    width: 200px;
+    height: 200px;
+}
+
+/*-----------------------------  RISK SECTION -----*/
 
 .risk {
     background-color: #000245;
     height: 515px;
-}
-
-.heading-white {
-    font-family: 'merloneue_semibolditalic';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 44px;
-    color: #fff;
-    margin-top: 80px;
 }
 
 .risk-container {
@@ -212,6 +233,15 @@ info
 
 .risk-score {
     width: 30%;
+    padding-top: 80px;
+    text-transform: uppercase;
+}
+
+.risk-score p{
+    color:#fff;
+    font-size: 16px;
+    font-family: 'merloneue_semibolditalic';
+    
 }
 
 .risk-info {
@@ -268,8 +298,35 @@ info
         margin-right: 5px;
 }
 
-/* CTA
-*/
+.big-blue-circle {
+    width: 300px;
+    height: 300px;
+    background-color: #000245;
+    border-radius: 50%;
+    display: table-cell;    
+    
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    
+    background-image: url("../assets/images/credit-risk.png");
+    background-repeat: no-repeat;
+    background-size: 265px;
+    background-position: center;
+}
+
+.big-blue-circle .low-risk{
+    font-family: 'merloneue_semibolditalic';
+    font-size: 28px;
+    color: #0F9A45;
+    line-height: 32px;
+    width: 5%;
+    position: relative;
+    left: 40%;
+    top: 5%;
+}
+
+/*--------------------------------  CTA SECTION -----*/
 
 .cta-strip {
     height: 80px;
@@ -301,9 +358,9 @@ info
 }
 
 
-
-
-/* footer ---------------------------------------------------------------------------*/
+/* ----------------------------------------------- */
+/*               FOOTER SECTION                    */
+/* ----------------------------------------------- */
 
 footer {
     display:grid;
@@ -312,7 +369,7 @@ footer {
 .footer-content{
     width: 100%;
     display: inline-flex;
-    height: min-content;
+    max-height: 355px;
 }
 
 .footer-right-block{
@@ -328,6 +385,7 @@ footer {
 
 footer .links {
     margin-top: 90px;
+    max-height: 355px;
 }
 
 .info-box {
@@ -398,6 +456,7 @@ footer .assistance .phone p .red{
     font-family: 'merloneue_regular';
     font-size: 14px;
     color: #000245;
+    margin-bottom: 60px;
 }
 
 .fine-print span:last-of-type{
@@ -419,17 +478,62 @@ footer .assistance .phone p .red{
     margin-left: 10px;
 }
 
+/*---------------------------- SOCIAL MEDIA ------*/
+
+.social-media{
+    display:flex;
+    width: fit-content;
+}
+
+.btn-social-media{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #000245;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    line-height:50px;
+    margin-right: 10px;
+}
+
+.btn-social-media:hover{
+    background-color: #FF5050;
+}
+
+.btn-social-media:nth-child(3){
+    font-size: 26px;
+}
+
+
+/*---------------------------- INVERTED STYLE ------*/
+
+.inverted{
+    background-color: #000245;    
+}
+
+.inverted .fine-print,
+.inverted .info-box a{
+    color:#fff;
+}
+
+.inverted .btn-social-media{
+    background-color: #E4E8EF;
+}
+
+.inverted .btn-social-media i{
+    color: #000245;
+}
+
+.inverted .btn-social-media:hover{
+    background-color: #FF5050;
+}
 
 /* ----------------------------------------------- */
-
-
-/* RISK */
-
-
+/*               SETTINGS PAGE                     */
 /* ----------------------------------------------- */
 
-
-/*-----------------------------settings ------------------------------*/
+/*------------------------------ACCOUNT INFO ------*/
 
 .settings-container {
     width: 80%;
@@ -514,14 +618,14 @@ footer .assistance .phone p .red{
     border-radius: 20px;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
-    box-shadow: none;
-    
+    box-shadow: none;   
     
     right: 60px; /* has to be 80 as per specs */
     bottom: 60px;
     position: absolute;
 }
 
+/*---------------------------- EDITION FORM ------*/
 .sign-in {
     width: 50%;
 }
@@ -529,6 +633,17 @@ footer .assistance .phone p .red{
 .form {
     width: 90%;
     margin-top: 30px;
+}
+
+.form input{
+    padding: 1px 0px 1px 0px;
+    box-sizing: border-box;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000245;
+    text-align: left;
+    border-color: transparent;
+    background-color: rgb(235, 235, 228);
 }
 
 .form button{
@@ -544,67 +659,6 @@ footer .assistance .phone p .red{
     padding:6px;
 }
 
-
-
-
-
-/************************ botones con fontawesome
-*/
-
-.btn-circle-red{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: #FF3636;
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-    line-height:40px;
-}
-
-.btn-circle-red:hover{
-    background-color:#FF5050;
-}
-
-.btn-circle-red-small{
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background-color: #FF3636;
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-    line-height:30px;
-}
-
-
-
-/* social media button */
-
-.social-media{
-    display:flex;
-    width: fit-content;
-}
-
-.btn-social-media{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background-color: #000245;
-    font-size: 30px;
-    color: #fff;
-    text-align: center;
-    line-height:50px;
-    margin-right: 10px;
-}
-
-.btn-social-media:hover{
-    background-color: #FF5050;
-}
-
-.btn-social-media:nth-child(3){
-    font-size: 26px;
-}
 
 
 
