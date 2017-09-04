@@ -354,9 +354,6 @@ body {
 /*               FOOTER SECTION                    */
 /* ----------------------------------------------- */
 
-footer {
-    display:grid;
-}
 
 .footer-content{
     width: 100%;
