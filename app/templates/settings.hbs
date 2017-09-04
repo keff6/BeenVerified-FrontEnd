@@ -9,7 +9,7 @@
             <div class="subheading-white">
                 Your Member ID is <strong>791509951</strong>
             </div>
-            <button class="button-white">Log out of XYZ</button>
+            {{#link-to 'login' tagName='button' class='button-white'}} Log out of XYZ {{/link-to}}
         </div>
     </section>
     <section class="sign-in">
@@ -26,7 +26,7 @@
         </div>
         <div class="edit-box">
             <p>Password</p>
-            <input type="text">
+            <input type="password">
             <button>Edit</button>
         </div>
     </div>

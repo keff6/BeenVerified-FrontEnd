@@ -36,6 +36,8 @@
         margin-left: 2.5%;
     }
     footer .assistance { width: 70%;}
+    
+    .authentication-container{width:45%;}
 
 }
 
@@ -91,6 +93,17 @@
     .form { width: 100%;  margin-top: 15px;}
     .account-attributes .container { width: 100%; margin-top: 0px; }
     .account-attributes{width:70%; margin: auto;}
+    
+    .authentication-container{
+        width: 80%;
+        border:none;
+        display: inherit;
+    }
+    
+    .circles-container{
+        margin:0;
+        display: flex;
+    }
 }
 
 
@@ -170,4 +183,10 @@
     .sign-in, .account-attributes{width:90%;}
     .account-attributes button{display:none;}
     .account-attributes .container{padding-left:10px;}
+    
+    .authentication-container{
+        width: 100%;
+        border:none;
+        display: inherit;
+    }
 }

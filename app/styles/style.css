@@ -48,6 +48,18 @@ body {
     margin-top: 80px;
 }
 
+input[type='text'],
+input[type='password']{
+    padding: 1px 0px 1px 0px;
+    box-sizing: border-box;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000245;
+    text-align: left;
+    border-color: transparent;
+    background-color: rgb(235, 235, 228);
+}
+
 /*------------------------------BUTTONS ------*/
 
 .btn-circle-red{
@@ -498,7 +510,8 @@ footer .assistance .phone p .red{
 /*---------------------------- INVERTED STYLE ------*/
 
 .inverted{
-    background-color: #000245;    
+    background-color: #000245; 
+    height: max-content;
 }
 
 .inverted .fine-print,
@@ -624,17 +637,6 @@ footer .assistance .phone p .red{
     margin-top: 30px;
 }
 
-.form input{
-    padding: 1px 0px 1px 0px;
-    box-sizing: border-box;
-    font-size: 24px;
-    text-decoration: none;
-    color: #000245;
-    text-align: left;
-    border-color: transparent;
-    background-color: rgb(235, 235, 228);
-}
-
 .form button{
     font-family: 'merloneue_semibolditalic'; 
     font-size: 14px;
@@ -646,4 +648,81 @@ footer .assistance .phone p .red{
     border-color: rgba(255, 54, 54, 1);
     border-radius: 15px;
     padding:6px;
+}
+
+/* ----------------------------------------------- */
+/*               LOGIN    PAGE                     */
+/* ----------------------------------------------- */
+.authentication-container{
+    width: 35%;
+    margin: auto;
+    margin-top: 5%;
+    border: 3px solid #000245;
+    padding: 15px;
+    border-radius:10px;
+    display: flex;
+    
+   
+    background-image: url("../assets/images/circle-background.png");
+    background-repeat: no-repeat;
+    background-position: -736px 0px; 
+}
+
+.authentication-container input{
+    border: 1px solid #768CAD;
+    border-radius: 3px;
+}
+
+.authentication-container .form{
+    margin-right:10%;
+}
+
+.circles-container{
+    margin-top: 30%;
+}
+
+.circles-container > *{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+
+.circle-red{
+    width: 40px;
+    height:40px;
+    background-color: #FF3636;
+    border-radius:50%;
+}
+
+.circle-blue{
+    width: 40px;
+    height:40px;
+    background-color: #000245;
+    border-radius:50%;
+}
+
+.circle-yellow{
+    width: 40px;
+    height:40px;
+    background-color: #FBD734;
+    border-radius:50%;
+}
+
+.circle-lightblue{
+    width: 40px;
+    height:40px;
+    background-color: #768CAD;
+    border-radius:50%;
+}
+
+.form  .btn-login{
+    border-color: #0F9A45;
+    background-color: #85B93D;
+    width: 100px;
+}
+
+.form  .btn-login:hover{
+    border-color: #85B93D;
+    background-color: #0F9A45;
+    color:#fff;
 }
