@@ -174,14 +174,6 @@
 }
 
 
-@font-face {
-    font-family: 'FontAwesome';
-    src: url('/assets/fonts/fontawesome/fonts/fontawesome-webfont.woff2') format('woff2'), 
-         url('/assets/fonts/fontawesome/fonts/fontawesome-webfont.woff') format('woff'),
-         url('/assets/fonts/fontawesome/fonts/fontawesome-webfont.svg') format('svg'),
-         url('/assets/fonts/fontawesome/fonts/fontawesome-webfont.eot') format('eot'),
-         url('/assets/fonts/fontawesome/fonts/fontawesome-webfont.ttf') format('ttf');
-}
 
 
 

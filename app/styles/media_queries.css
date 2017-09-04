@@ -1,21 +1,91 @@
-
-
-
 /* Small desktops */
+
 @media only screen and (max-width: 1200px) {
-    body{background-color: aqua;}
+    .overview-container,
+    .risk-container,
+    .cta-strip-container,
+    .fine-print,
+    .settings-container {
+        width: 95%;
+    }
+    .normal-text {
+        font-size: 24px;
+    }
+    .text-box {
+        margin-bottom: 30px;
+    }
+    .overview {
+        background-position: -946px 0px;
+    }
+    .general-info { width: 55%; }
+    .big-red-circle p { font-size: 15px;}
+    .big-red-circle p:last-of-type{font-size: 30px; top: 20px;}
+    .big-number { font-size: 110px;}
+    .white-text { font-size: 24px;}
+    .heading-white { margin-top: 60px; }
+    .big-blue-circle .low-risk,.risk-row p { font-size:24px;}
+    .risk-info .red-label{ margin-top: 30px;}
+    .risk-row span {margin-right:15px;}
+    .risk-row p {margin-top: 15px;}
+    .risk-info button {margin-top: 30px;}
+    .risk { padding-bottom: 60px;}
+    
+    .info-box{margin-right: 25%;}
+    .footer-left-block {
+        width: 47.5%;
+        margin-left: 2.5%;
+    }
+    footer .assistance { width: 70%;}
+
 }
 
 
 /* Tablet portrait*/
+
 @media only screen and (max-width: 767px) {
-     body{background-color: coral;}
+    .heading{ font-size:34px;}
+    .red-label { font-size:14px;}
+    .company-name { font-size:30px; }
+    .normal-text { font-size:20px; }
+    .white-text { font-size: 16px; }
+    .blue-circle { height: 130px; width: 130px;}
+    
+    .big-red-circle,.big-blue-circle{width:180px; height:180px; background-size: 170px; }
+    
+    .big-red-circle p:last-of-type {
+        font-size: 22px;
+        top: -8px;
+    }
+    
+    .big-number {
+        font-size: 84px;
+        top: 9px;
+    }
+    .big-red-circle p{ top:27px;}
+    .text-box .right{margin-left:25%;}
+    .overview {background-position: -1176px 0px;}
+    .big-blue-circle .low-risk, .risk-row p {font-size: 16px;}
+    .risk-row i{font-size:20px;}
+    .risk-row p { font-size: 20px;}
+    .risk-score .big-number{top:25px;}
+    
+    .cta-strip-container p {    
+        line-height: 25px;
+        width: 55%;
+        padding-top: 2%;
+    }
+    
+    .info-box { margin-right: 18%; }
+    footer .assistance { width: 95%;}
+    
+    .settings-container { display: flow-root; }
 }
 
 
-
 /* Smartphones */
+
 @media only screen and (max-width: 480px) {
-     body{background-color: cornflowerblue;}
- 
+    body {
+        background-color: cornflowerblue;
+    }
 }
