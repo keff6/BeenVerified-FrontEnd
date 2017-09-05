@@ -5,6 +5,7 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -21,7 +22,7 @@ body {
     color: #000245;
     text-align: center;
     height: 60px;
-    margin-top: 90px; /*has to be 160px from the very top*/
+    margin-top: 40px; /*has to be 160px from the very top*/
 }
 
 .red-label {
@@ -51,6 +52,7 @@ body {
 input[type='text'],
 input[type='password']{
     padding: 1px 0px 1px 0px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font-size: 24px;
     text-decoration: none;
@@ -104,6 +106,8 @@ input[type='password']{
 .overview-container {
     width: 80%;
     margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -158,6 +162,8 @@ input[type='password']{
     color: #000245;
     text-align: left;
     line-height: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -170,6 +176,8 @@ input[type='password']{
 }
 
 .text-box:last-of-type{
+     display: -webkit-box;
+     display: -ms-flexbox;
      display: flex;
 }
 
@@ -232,6 +240,8 @@ input[type='password']{
 .risk-container {
     width: 80%;
     margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -292,6 +302,7 @@ input[type='password']{
     width: 240px;
     margin-top: 40px;
     background-color: rgba(255, 255, 255, 0);
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-width: 1px;
     border-style: solid;
@@ -364,6 +375,7 @@ input[type='password']{
 .cta-strip img {
     height: 30px;
     float: right;
+        -webkit-transform: translateY(80%);
         transform: translateY(80%);
 }
 
@@ -375,6 +387,8 @@ input[type='password']{
 
 .footer-content{
     width: 100%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     max-height: 355px;
 }
@@ -451,6 +465,7 @@ footer .assistance .phone p{
     font-family: 'merloneue_regular';    
     color: #000245;
     font-size: 14px;
+    margin-left: 40px;
 }
 
 footer .assistance .phone p .red{
@@ -483,6 +498,8 @@ footer .assistance .phone p .red{
     text-align: left;
     color: #FF3636;
     margin-top: 30px;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
 }
 
@@ -493,7 +510,11 @@ footer .assistance .phone p .red{
 /*---------------------------- SOCIAL MEDIA ------*/
 
 .social-media{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
 }
 
@@ -522,6 +543,8 @@ footer .assistance .phone p .red{
 
 .inverted{
     background-color: #000245; 
+    height: -webkit-max-content; 
+    height: -moz-max-content; 
     height: max-content;
 }
 
@@ -551,6 +574,8 @@ footer .assistance .phone p .red{
 .settings-container {
     width: 80%;
     margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -582,7 +607,7 @@ footer .assistance .phone p .red{
 .account-attributes p{
     font-family: "merloneue_regular";
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .account-attributes .subheading-white{
@@ -629,7 +654,6 @@ footer .assistance .phone p .red{
     background-color: rgba(255, 255, 255, 1);
     border: none;
     border-radius: 20px;
-    -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;   
     
@@ -653,6 +677,7 @@ footer .assistance .phone p .red{
     font-size: 14px;
     color: #000245;
     background-color: rgba(255, 255, 255, 0);
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-width: 1px;
     border-style: solid;
@@ -660,6 +685,7 @@ footer .assistance .phone p .red{
     border-radius: 15px;
     padding:6px;
 }
+
 
 /* ----------------------------------------------- */
 /*               LOGIN    PAGE                     */
@@ -671,6 +697,8 @@ footer .assistance .phone p .red{
     border: 3px solid #000245;
     padding: 15px;
     border-radius:10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     
    
