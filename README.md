@@ -1,2 +1,2 @@
 # BeenVerified-FrontEnd
-A nice Front End developers test - ember.js
+A nice and fun Front End developers test - ember.js
