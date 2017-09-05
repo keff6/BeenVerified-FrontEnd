@@ -3,6 +3,12 @@
 
 module.exports = function(environment) {
   let ENV = {
+    resizeServiceDefaults: {
+      debounceTimeout    : 200,
+      heightSensitive    : true,
+      widthSensitive     : true,
+      injectionFactories : [ 'view', 'component']
+    },
     modulePrefix: 'been-verified-front-end',
     environment,
     rootURL: '/',
@@ -22,6 +28,7 @@ module.exports = function(environment) {
       // Here you can pass flags/options to your application instance
       // when it is created
     }
+      
   };
 
   if (environment === 'development') {

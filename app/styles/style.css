@@ -241,6 +241,12 @@ input[type='password']{
     text-transform: uppercase;
 }
 
+.risk-score .gauge-block{
+    width:80%;
+    margin:auto;
+    text-align: center;
+}
+
 .risk-score p{
     color:#fff;
     font-size: 16px;
@@ -416,6 +422,11 @@ footer .links {
     text-align: left;
     line-height: normal;
     text-decoration: none;
+}
+
+.info-box a:hover,
+.inverted .info-box a:hover{
+    color: #FF5050;
 }
 
 footer .assistance {
